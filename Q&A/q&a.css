@@ -1,0 +1,169 @@
+#page
+{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    justify-content: center;
+}
+
+#page_container
+{
+    width: 66%;
+}
+
+.page_content_container
+{
+    display: flex;
+    flex-direction: column;
+}
+.menu_title
+{
+    font-size: 46px;
+    color: rgb(115, 0, 255);
+}
+.menu_buttons
+{
+    display: flex;
+    flex-direction: row;
+    
+}
+.menu_button
+{
+    justify-content: space-evenly;
+    margin: 5px;
+    padding: 10px;
+
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+    
+    background-color: rgb(115, 0, 255);
+    
+
+    border: solid 1px #fafafa;
+    border-radius: 5px;
+
+    
+    transition: 0.3s;
+}
+.menu_button:hover
+{
+    color: rgb(115, 0, 255);
+    background-color: white;
+    border-color: rgb(115, 0, 255);
+}
+#main_questions_and_answers
+{
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin: 1% 17% 1% 17%;
+}
+.title_question
+{
+    display: flex;
+    flex-direction: row;
+    margin: 4px;
+    align-items: flex-start;
+    
+    border: solid 1px white;
+    border-radius: 9px;
+    box-shadow: 0px 0px 5px rgba(115, 0, 255, 0.308);
+
+    background-color: white;
+}
+.title_question:active{
+    transition: 10s;
+}
+.question_logo
+{
+    margin: 10px;
+    align-items: center;
+    padding: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+    font-size: 25px;
+    font-weight: bold;
+    color: white;
+
+    border: solid 1px rgb(115, 0, 255);
+    border-radius: 10px;
+    background-color: rgb(115, 0, 255);
+}
+.question
+{
+    font-weight: normal;
+    font-size: 30px;
+    margin: 10px;
+}
+.spoiler_wrap 
+{
+    margin: 10px;
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 30px;
+    font-weight: normal;
+    background: white;
+    border-radius: 5px;
+    height: fit-content;
+    width: 100%;
+}
+.spoiler_title 
+{
+    cursor: pointer;
+}
+.spoiler_title, .spoiler_content 
+{
+padding-bottom: 5px;
+}
+.spoiler_content 
+{
+    padding-top: 0;
+    padding-bottom: 0px;
+    transition: 0.15s ease-out;
+    height: auto;
+    max-height: 0px;
+    overflow: hidden;
+    margin-top: -10px;
+    opacity: 0;
+    font-size: 20px;
+    color: rgba(0, 0, 0, 0.87);
+}
+.spoiler_content p 
+{
+    font-weight: normal;
+    font-size: 20px;
+    margin: 22px 0;
+    color: rgba(0, 0, 0, 0.87);
+    line-height: 1.4;
+}
+.spoiler_content.open 
+{
+    margin-top: 10px;
+    max-height: 100%;
+    opacity: 1;
+}
+.spoiler_title .spoiler_arrow 
+{
+    display: inline-block;
+    justify-content: flex-end;
+    font-size: 22px;
+    transition: all 0.3s;
+}
+.spoiler_arrow
+{
+    position: absolute;
+    right: 0;
+    top: 7px;
+}
+.spoiler_title .spoiler_arrow svg 
+{
+    fill: rgb(115, 0, 255);
+    width: 20px;
+}
+.spoiler_title .spoiler_arrow.open 
+{
+    transform: rotate(180deg);
+}

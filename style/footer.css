@@ -1,0 +1,47 @@
+.footer {
+    flex: 0 0 auto;
+    border-radius: 15px;
+    display: flex;
+    background-color: #3c9daa;
+    justify-content: space-evenly;
+}
+
+.footer-left {
+    display: flex;
+    align-items: center;
+}
+
+.footer-right {
+    display: flex;
+}
+
+.bestChPic {
+    width: 225px;
+    margin: 10px;
+}
+
+.footer-txt {
+    margin: 5px;
+}
+
+.logo {
+    margin: 10px 10px;
+    width: 40px;
+}
+
+.footer-right_links a {
+    text-decoration: none;
+    color: rgb(235, 226, 226);
+    margin-right: 300px;
+    font-size: 18px;
+}
+
+.footer-right_links a:hover {
+    color: rgb(188, 179, 179);
+    transition: .3s;
+    text-decoration: underline;
+}
+
+.footer-right_links {
+    margin: 10px;
+}

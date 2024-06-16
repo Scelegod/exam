@@ -1,0 +1,85 @@
+.container_obmen
+{
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    /* padding-bottom: 9%; */
+    padding-bottom: 4%;
+}
+
+.container_obmen--block
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: nowrap;
+    padding: 5%;
+    background-color: rgb(115, 0, 255);
+    border-radius: 10px;
+}
+
+.container_obmen--flex
+{
+    display: flex;
+    width: 100%;
+    padding-bottom: 1%;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.container_obmen--flex--block
+{
+    width: 15vw;
+}
+
+.container_obmen--text
+{
+    font-size: 1vw;
+    color:rgb(246, 246, 246);
+}
+
+.container_obmen--zagolovok
+{
+    font-size: 1vw;
+    color:rgb(246, 246, 246);
+}
+.container_obmen--text2
+{
+color: rgb(246, 246, 246);
+}
+.gap
+{
+padding: 1%;
+}
+.container_obmen--block--button
+{
+    width: 100%;
+}
+.container_obmen--button
+{
+    width: 100%;
+    outline: none;
+    color: rgb(246, 246, 246);
+    border: rgb(50, 0, 90) solid 2px;
+    background-color: rgb(115, 0, 255);
+    font-size: 1vw;
+    transition: 0.3s;
+    border-radius: 1vw;
+}
+.container_obmen--button:hover
+{
+    color: rgb(115, 0, 255);
+    background-color: white;
+    border-color: rgb(115, 0, 255);
+}
+.container_obmen--color--text
+{
+    color: aqua;
+}
+.container_obmen--instruction
+{
+    display: flex;
+    width: 100%;
+}

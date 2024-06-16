@@ -1,0 +1,115 @@
+.lc, .moi
+{
+    color: #48423B;
+    font-weight: bold;
+}
+.zagolovok-lc
+{
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+.lc
+{
+    font-size: 2em;
+}
+.moi
+{
+    width: 10%;
+    padding: 40px;
+    font-size: 1.5em;
+}
+.zayvki
+{
+    flex: 1 0 auto;
+    margin: 1% 0 1% 0;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+}
+.zayvki--block
+{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.zayvki--moi
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 95%;
+    border-radius: 50px;
+    align-items: center;
+    height: 40vh;
+}
+.zayvki--info
+{
+    display: flex;
+    padding-bottom: 0.5em;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+}
+.info--zayvok
+{
+    font-size: 0.9em;
+    color: #888;
+}
+.zayvki--nav
+{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex-wrap: nowrap;
+    background-color: white;
+    border-radius: 50px;
+    justify-content: center;
+}
+.btn
+{
+    color: black;
+    font-weight: bolder;
+    font-size: 1em;
+    text-decoration: none;
+}
+.nav--btn
+{
+    padding: 5px;
+}
+.block--line
+{
+    width: 100%;
+    border-bottom: #888 solid 1px;
+}
+.zayvki--sami
+{
+    width: 100%;
+    text-align: center;
+    padding-top: 0.5em;
+}
+.zayvki--text
+{
+    font-size: 0.8em;
+    color: #888
+}
+.creat--btn
+{
+    width: 150px;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    font-weight: 500;
+    color: white;
+    height: 40px;
+    border-radius: 15px;
+    background-color: rgb(115, 0, 255);
+}
+.creat--btn:hover
+{
+    background-color: rgb(50, 0, 90);
+}

@@ -1,0 +1,145 @@
+#container
+{
+  flex: 1 0 auto;
+}
+  .display-flex {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+  }
+  .container__area {
+    padding:8px;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  .set-center {
+    justify-content: center;
+  }
+  .partners__text {
+    color: rgb(115, 0, 255);
+    padding: 40px 0px 20px 0px;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .main__information {
+    box-shadow:  0px 8px 16px rgba(0, 0, 0, 0.03);
+    border-radius: 10px;
+    background-color: #fff;
+  }
+ 
+  .about {
+    color: #48423B;
+    padding: 40px;
+    font-size: 18px;
+    line-height: 24px;
+  }
+  .offers {
+    padding: 120px 0px;
+    background: url(sprites/partnerBack.svg);
+    background-size: auto 100%;
+  }
+  
+  .offers__interest {
+    display: table;
+    text-align: center;
+  }
+  .sprite {
+    display: table-cell;
+    padding: 0px 55px;
+    line-height: 24px;
+    vertical-align: middle;
+  }
+  .sprite > img {
+    margin: 25px auto 10px auto;
+    display: block;
+  }
+  .sprite__text {
+    color: #e0e0e0d8;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 24px;
+  }
+  .column > div {
+    padding: 40px;
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .column > div > img {
+    margin-bottom: 20px;
+  }
+  .column > div > h4 {
+    margin-top: 0px;
+    text-transform: uppercase;
+  }
+  .column__button {
+    color: rgba(0, 0, 0, 0.87);
+    padding: 6px 16px;
+    font-size: 0.875rem;
+    min-width: 64px;
+    box-shadow: none !important;
+    box-sizing: border-box;
+    font-weight: 500;
+    line-height: 1.75;
+    border-radius: 4px;
+    text-transform: uppercase;
+    margin-left: 10px;
+    background-color: #F3C41F;
+    padding: 6px 8px;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.7;
+    text-transform: uppercase;
+  }
+  .column__button:hover {
+    background-color: #e4bf3b;
+  }
+  .questions {
+    color: #fff;
+    padding: 25px 30px;
+    overflow: hidden;
+    position: relative;
+    background: #926a3b;
+    margin-top: 40px;
+    font-weight: 400;
+    border-radius: 10px;
+  }
+  .tradebutton {
+    padding: 35px 25px;
+    background: url(sprites/bannerback.svg);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    background-color: #F3DA1F;
+  }
+  .tradebutton-text {
+    color: white;
+    width: 100%;
+    display: inherit;
+    align-items: inherit;
+    justify-content: inherit;
+  }
+  .TextInButton{
+    border-radius: 4px;
+    width: 100%;
+    padding: 15px;
+    font-size: 18px;
+    margin-top: 25px;
+    font-weight: 600;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+    background-color: #000;
+  }
+  .TextInButton:hover{
+    background-color: #48423B;
+  }
+  .tradebutton__text {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 23px;
+    letter-spacing: 0.02em;
+    text-transform: uppercase;
+  }

@@ -1,0 +1,87 @@
+.news_header
+{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1%;
+    color: black;
+}
+.header_data
+{
+    display: flex;
+    flex-direction: row;
+
+    font-size: 23px;
+}
+.header_data_day_and_month
+{
+    color: rgba(0, 0, 0, 0.75);
+}
+.header_data_year
+{
+    margin-left: 3px;
+    color: rgba(0, 0, 0, 0.5);
+}
+.header_title
+{
+    margin-top: 5px;
+
+    font-size: 35px;
+    color: rgb(115, 0, 255);
+}
+.news_content
+{
+   padding-left: 30px;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   padding-right: 15px;
+   background-color: white;
+   width: 63%;
+   
+   font-size: 20px;
+   border: 1px solid rgb(115, 0, 255);
+   border-radius: 10px;
+}
+.content_description
+{
+    padding-top: 11px;
+
+    font-size: 22px;
+}
+.back_button_block
+{
+    flex: 1 0 auto;
+    width: 65.5%;
+    padding: 1%;
+}
+.back_button
+{
+    display: flex;
+    flex-direction: row;
+    padding: 6px;
+    font-size: 20px;
+    border: 1px solid rgb(240, 235, 235);
+    border-radius: 7px;
+    width: 12%;
+
+    transition: 0.1s;
+}
+.back_button:hover 
+{
+    background-color: rgb(115, 0, 255);
+    color: white;
+
+    transition: 0.1s;
+}
+.back_button_arrow
+{
+    padding: 4px;
+    border: 1px solid rgb(115, 0, 255);
+    border-radius: 5px;
+
+    color: white;
+    background-color: rgb(115, 0, 255);
+}
+.back_button_name
+{
+    padding: 3px;
+}
